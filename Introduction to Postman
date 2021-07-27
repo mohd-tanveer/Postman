@@ -1,0 +1,30 @@
+Postman : it is an API client used to develop test share document API's
+
+#2
+Understanding Postman API UI
+
+1.  login and create request and add in collection
+
+what is collection ?
+Postman Collections are a group of saved requests you can organize into folders. 
+Every request you send in Postman appears under the History tab of the sidebar. On a small scale, reusing requests through the history section is convenient.
+
+How to Run Cllection?
+using runner collection we can run the collection and we can also set the some variables like itereaton,delay etc.
+we can also create a folder and store the relevant get or post request in respective folders
+
+Varaibles 
+what|Why|When|how
+
+variables can be created for common urls,data,etc. : for collection level we can use collection edit.
+
+varaible at environement or global level: 
+
+how to set and get variables through scripts.(go in test)
+
+console.log("hello world")
+let urlvar  = pm.variables.get("url");
+console.log("value for url variable is : "+urlvar);
+
+
+
